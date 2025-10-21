@@ -76,14 +76,13 @@ bash run/longbench/scripts/run_qwen2/run_qwen2_7b_instruct_dynamic_v11_maxpool.s
 If you find DynamicKV useful, please cite our paper:
 
 ```bibtex
-@misc{zhou2025dynamickvtaskawareadaptivekv,
-      title={DynamicKV: Task-Aware Adaptive KV Cache Compression for Long Context LLMs}, 
-      author={Xiabin Zhou and Wenbin Wang and Minyan Zeng and Jiaxian Guo and Xuebo Liu and Li Shen and Min Zhang and Liang Ding},
-      year={2025},
-      eprint={2412.14838},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.14838}, 
+@inproceedings{
+    zhou2025dynamickv,
+    title={Dynamic{KV}: Task-Aware Adaptive {KV} Cache Compression for Long Context {LLM}s},
+    author={Xiabin Zhou and Wenbin Wang and Minyan Zeng and Jiaxian Guo and Xuebo Liu and Li Shen and Min Zhang and Liang Ding},
+    booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+    year={2025},
+    url={https://openreview.net/forum?id=eDc56RuoC6}
 }
 ```
 
