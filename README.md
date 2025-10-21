@@ -11,7 +11,7 @@
 
 ---
 
-## 🔍 Method Overview / 方法简介
+## 🔍 Method Overview
 
 ### Why DynamicKV?
 Existing KV compression methods (e.g., StreamingLLM, PyramidKV) use **fixed retention patterns** across layers and tasks, ignoring task-specific attention dynamics.
@@ -28,7 +28,7 @@ Existing KV compression methods (e.g., StreamingLLM, PyramidKV) use **fixed rete
 
 ---
 
-## 📊 Model Comparison / 模型对比（LongBench, KV Cache = 512）
+## 📊 Model Comparison（LongBench, KV Cache = 512）
 
 | Model | FullKV | StreamingLLM | H2O | SnapKV | PyramidKV | **DynamicKV (Ours)** |
 |-------|--------|--------------|-----|--------|-----------|----------------------|
