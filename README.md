@@ -49,7 +49,7 @@ Existing KV compression methods (e.g., StreamingLLM, PyramidKV) use **fixed rete
 
 ---
 
-## ⚡ Quick Start / 一键启动
+## ⚡ Quick Start
 
 ### Install
 ```bash
@@ -71,7 +71,7 @@ bash run/longbench/scripts/run_qwen2/run_qwen2_7b_instruct_dynamic_v11_maxpool.s
 
 ---
 
-## 📚 Citation / 引用
+## 📚 Citation
 
 If you find DynamicKV useful, please cite our paper:
 
